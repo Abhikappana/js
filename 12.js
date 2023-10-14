@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')
+const prompt = require('prompt-sync')();
 let size=prompt("Enter the size");
 let arr=[];
 console.log("Enter the values of an array");
@@ -6,8 +6,8 @@ for(let i=0;i<size;i++){
     arr.push(prompt());
 }
 //descending order 
-for(i=0;i<size;i++){
-    for(j=i+1;j<size;j++){
+for(let i=0;i<size;i++){
+    for(let j=i+1;j<size;j++){
         if(arr[i]<arr[j]){
             let temp=arr[i];
             arr[i]=arr[j];
