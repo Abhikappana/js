@@ -6,7 +6,7 @@ try{
 }
 catch(err){
     console.log("Error : "+err.message);
-}
+} 
 finally{
     console.log(`Type of ${input} is ${typeof(input)}`);
 }
