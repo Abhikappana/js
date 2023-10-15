@@ -12,7 +12,7 @@ for(let i=0;i<size;i++){
 console.log("Enter the array 2 elements :");
 for(let i=0;i<size;i++){
     arr2[i]=[]
-    for(j=0;j<size;j++){
+    for(let j=0;j<size;j++){
         arr2[i][j]=parseInt(prompt(""));
     }
 }
