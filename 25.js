@@ -2,8 +2,8 @@ const prompt = require('prompt-sync')()
 
 var library = [
     {
-        title:'Bill Gates',
-        author:'THe Road Ahead',
+        title:'The Road Ahead',
+        author:'Bill Gates',
         readingStatus :'true'
     },
     {
@@ -12,7 +12,7 @@ var library = [
         readingStatus : true
     },
     {
-        title:'MOcking: The Final Book of The Hunger Games',
+        title:'Mocking: The Final Book of The Hunger Games',
         author:'Suzanne Colliins',
         readingStatus:false
     }
